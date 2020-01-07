@@ -1,0 +1,9 @@
+foreach的两种同样效果的写法
+1
+foreach($data as $k=>$v){
+    $data[$k]['create_time'] = time();
+}
+2
+foreach($data as &$list ）{
+    $list['create_time'] = time();
+}
