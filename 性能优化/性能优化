@@ -1,0 +1,10 @@
+ab 压力测试
+ab -n100 -c https://www.baidu.com/
+  -n请求数
+   -c并发量
+1.尽量使用PHP内置参数（函数） ，少写代码，多用PHP自身能力  
+2.内置函数也有快慢，选择性能优先的
+3.减少魔法术函数的使用，性能不佳
+  linux 命令time
+    例如 time php test.php
+    user 耗时为运行PHP test.php耗时开销
