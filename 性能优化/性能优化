@@ -27,3 +27,5 @@ ab -n100 -c https://www.baidu.com/
    并列请求接口
    curl_multi_*()
    swoole
+ xhprof工具
+ php --ri xhprof //检查是否支持和版本
