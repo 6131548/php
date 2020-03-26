@@ -8,3 +8,6 @@ ab -n100 -c https://www.baidu.com/
   linux 命令time
     例如 time php test.php
     user 耗时为运行PHP test.php耗时开销
+ 4.产生额外开销错误抑制符@
+  @用法是在代码前和代码后添加Opcode,忽略报错
+ 5 合理使用内存和正则表达式   
