@@ -19,3 +19,11 @@ ab -n100 -c https://www.baidu.com/
  8 务必使用带引号字符串组键值 
  9PHP周边
     1.linux运行环境
+ 9优化网络请求   
+  请求外部接口
+   连接超时200MS
+   读超时800MS
+   写超时500MS
+   并列请求接口
+   curl_multi_*()
+   swoole
